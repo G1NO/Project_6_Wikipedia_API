@@ -9,7 +9,7 @@ The task has three parts:
 
 ## Collection
 
-In teams, collect at least 300 pages across 3 categories using the Wikipedia API and load these pages into a Postgres database.
+Collect at least 300 pages across 3 categories using the Wikipedia API and load these pages into a Postgres database.
 
 You must build a python script that:
 
@@ -30,7 +30,7 @@ You must build a python script that:
 
 ## Search
 
-Individually, perform a search over the data we collected. 
+Perform a search over the data we collected. 
 
 You must build a python script that:
 
