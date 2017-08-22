@@ -9,9 +9,9 @@ The task has three parts:
 
 ## Collection
 
-Collect at least 300 pages across 3 categories using the Wikipedia API and load these pages into a Postgres database.
+###300 pages across 3 categories were collected using the Wikipedia API and loaded into a Postgres database.
 
-You must build a python script that:
+###Built a python script that:
 
 - will be run via a command line argument 
     - e.g. `./download #ARGS#`
@@ -30,9 +30,9 @@ You must build a python script that:
 
 ## Search
 
-Perform a search over the data we collected. 
+Performed a search over the data we collected. 
 
-You must build a python script that:
+Built a python script that:
 
 - returns a text snippet from each of the top five related articles to a search query
     - a query could be any string of words
@@ -41,11 +41,11 @@ You must build a python script that:
     - e.g. `./search full principal component analysis`
 
 ## Predict
-Build a predictive model over your data. When a new article comes along, you must be able to predict the category into which that article should fall. 
+Built a predictive model over the data. When a new article comes along, able to predict the category into which that article should fall. 
 
-This section will have two scripts:
+This section has two scripts:
 
-1. a training script, `./train-model`, that will train a predictive model over your dataset
+1. a training script, `./train-model`, that will train a predictive model over the dataset
 2. a prediction script that takes as argument an article from Wikipedia
     - e.g. 
     
