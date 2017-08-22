@@ -9,9 +9,9 @@ The task has three parts:
 
 ## Collection
 
-###300 pages across 3 categories were collected using the Wikipedia API and loaded into a Postgres database.
+300 pages across 3 categories were collected using the Wikipedia API and loaded into a Postgres database.
 
-###Built a python script that:
+Built a python script that:
 
 - will be run via a command line argument 
     - e.g. `./download #ARGS#`
